@@ -1,4 +1,4 @@
-# Python Library Template
+# Python Template
 
 本リポジトリは、パッケージマネージャーに `uv`、Linterおよびフォーマッタに `Ruff` を採用した汎用ライブラリ開発用のテンプレートです。
 
