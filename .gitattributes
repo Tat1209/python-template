@@ -1,0 +1,8 @@
+# デフォルトの改行コードをLFに統一（Windows/Mac間のCRLF競合を防止）
+* text=auto eol=lf
+
+# Windows用のバッチファイルのみCRLFを強制
+*.bat text eol=crlf
+
+# 自動生成されるロックファイルをGitHubの差分表示・言語統計から除外
+uv.lock linguist-generated=true 
